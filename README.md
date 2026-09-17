@@ -5,6 +5,17 @@
 
 ![screenshot](screenshot.png)
 
+## Скачать
+
+Готовый `.exe` — в разделе [Releases](../../releases).
+
+## Запуск из исходников
+
+```bash
+git clone https://github.com/aleks228ter/Nova-Profilect.git
+cd Nova-Profilect
+python Nova.py
+
 ## Возможности
 
 - 7 встроенных проверок: UAC, брандмауэр, антивирус, автозагрузка, открытые порты, гостевая учётка, версия Windows.
