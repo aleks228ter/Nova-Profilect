@@ -1,0 +1,22 @@
+# PyInstaller
+build/
+dist/
+*.spec
+version_info.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Резервные копии плагинов
+plugins/_backup/
+
+# VS Code (если не хотите делиться настройками)
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
