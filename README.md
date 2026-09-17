@@ -11,7 +11,7 @@
 
 ## Запуск из исходников
 
-```bash
+```bash ```
 git clone https://github.com/aleks228ter/Nova-Profilect.git
 cd Nova-Profilect
 python Nova.py
@@ -30,18 +30,16 @@ python Nova.py
 
 ## Запуск из исходников
 
-```bash
+```bash```
 git clone https://github.com/aleks228ter/Nova-Project.git
 cd Nova-Project
 python Nova.py
-```
 
 ## Сборка .exe
 
-```bash
+```bash```
 cd builder
 python build.py
-```
 
 Готовый файл появится в `dist/Nova.exe`.
 
@@ -49,7 +47,8 @@ python build.py
 
 Плагин — это `.py`-файл в папке `plugins/` с тремя элементами:
 
-```python
+```python```
+```
 PLUGIN = {"name": "...", "description": "..."}
 def scan() -> list[dict]: ...
 def fix(issue_id: str) -> tuple[bool, str]: ...
